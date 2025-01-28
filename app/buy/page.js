@@ -9,7 +9,7 @@ const BuyPage = () => {
         <div className="max-w-4xl mx-auto">
           {/* Heading */}
           <div className="mb-8 text-center">
-            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text mb-4 font-poppins">
+            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
               How to Invest in PALI Coin
             </h1>
             <span className="text-gray-800">
@@ -27,11 +27,12 @@ const BuyPage = () => {
             <br></br>
           </div>
           <div className="mb-8 mt-8 text-center">
-            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text  mb-4 font-poppins">
-              Get your PALI Coin from Presale now
+            <h1 className="text-md sm:text-md font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
+              PALI Coin Presale on Pinksale has ended but you can still buy PALI
+              Coin on the following platforms
             </h1>
           </div>{" "}
-          <div className="mt-10 mb-10 h-[300px] sm:h-[600px] md:h-[800px] relative">
+          <div className="mt-10 mb-10 h-[500px] sm:h-[500px] md:h-[500px] relative">
             <iframe
               className="rounded-lg"
               height="100%"
@@ -42,9 +43,22 @@ const BuyPage = () => {
               allow="clipboard-write"
             ></iframe>
           </div>
+          <div className="mb-8 mt-8 text-center">
+            <h1 className="text-md sm:text-md font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
+              PALI Coin Presale on Pinksale has ended but you can still buy PALI
+              Coin on the following platforms
+            </h1>
+          </div>{" "}
           <div className="mt-4">
             {" "}
             <span className="text-gray-700 ">
+              <span className="text-lg sm:text-md xs:text-sm text-gray-400 text-center">
+                <strong>PALI Coin CONTRACT ADDRESS:</strong>{" "}
+                <span className="text-paliGreen font-semibold break-all bg-gray-200 p-2 rounded-lg">
+                  0xdf630b84f681c94f7cdbfb230479a0138692f264
+                </span>
+              </span>{" "}
+              <br></br>
               Please Copy the PALI Coin contract address{" "}
               <span className="text-3xl w-15 h-15">☝🏼</span> and paste it in
               your preferred trading platforms to be able to import and make
@@ -661,7 +675,7 @@ const BuyPage = () => {
           <p className="text-center p-2 text-gray-600 mb-5 mt-6">
             🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
           </p>
-          <div className="flex flex-wrap justify-center gap-2 bg-gradient-to-r from-paliPink to-pali-teal p-6 rounded-lg ">
+          <div className="flex flex-wrap justify-center gap-2 bg-gradient-to-r from-paliPink to-pali-teal p-6 rounded-lg shadow-lg">
             {[
               {
                 name: "SushiSwap",
@@ -696,7 +710,7 @@ const BuyPage = () => {
             ].map(({ name, href, title, icon }) => (
               <div
                 key={name}
-                className="rounded-lg  duration-300"
+                className="rounded-lg shadow-lg hover:shadow-sm transition-shadow duration-300"
               >
                 <a href={href} target="_blank" rel="noopener noreferrer">
                   <abbr title={title} className="no-underline">
@@ -709,6 +723,18 @@ const BuyPage = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="text-gray-800 px-2 py-10 text-center">
+          <p>
+            Thank you for considering crypto donations to help support the
+            continuation of our project 🍉
+          </p>
+          <p>💚 We truly appreciate your contribution 💚</p>
+          Please feel free to send donations to the following crypto{" "}
+          <span className="text-orange-400 font-bold">BTC</span> addresses:
+          <p className="text-orange-400 font-bold">
+            bc1qycju7kvkzlf88jcfalelz00ya70arvgml8dsjs
+          </p>{" "}
         </div>
       </div>
     </>
