@@ -731,7 +731,7 @@ const BuyPage = () => {
           </p>
           <p>💚 We truly appreciate your contribution 💚</p>
           Please feel free to send donations to the following crypto{" "}
-          <span className="text-orange-400 font-bold">BTC</span> addresses:
+          <span className="text-orange-400 font-bold">BTC</span> address:
           <p className="text-orange-400 font-bold">
             bc1qycju7kvkzlf88jcfalelz00ya70arvgml8dsjs
           </p>{" "}
