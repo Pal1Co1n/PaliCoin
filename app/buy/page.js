@@ -17,38 +17,6 @@ const BuyPage = () => {
             </span>
           </div>{" "}
           {/* Contract Address */}
-          <div className="mb-4 mt-4 ">
-            <span className="text-lg sm:text-md xs:text-sm text-gray-400 text-center">
-              <strong>PALI Coin CONTRACT ADDRESS:</strong>{" "}
-              <span className="text-paliGreen font-semibold break-all bg-gray-200 p-2 rounded-lg">
-                0xdf630b84f681c94f7cdbfb230479a0138692f264
-              </span>
-            </span>{" "}
-            <br></br>
-          </div>
-          <div className="mb-8 mt-8 text-center">
-            <h1 className="text-md sm:text-md font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
-              PALI Coin Presale on Pinksale has ended but you can still buy PALI
-              Coin on the following platforms
-            </h1>
-          </div>{" "}
-          <div className="mt-10 mb-10 h-[500px] sm:h-[500px] md:h-[500px] relative">
-            <iframe
-              className="rounded-lg"
-              height="100%"
-              width="100%"
-              id="geckoterminal-embed"
-              title="GeckoTerminal Embed"
-              src="https://www.pinksale.finance/launchpad/polygon/0x302cD938EF8Fab1aFa49F76F654e241DB6EEab77"
-              allow="clipboard-write"
-            ></iframe>
-          </div>
-          <div className="mb-8 mt-8 text-center">
-            <h1 className="text-md sm:text-md font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
-              PALI Coin Presale on Pinksale has ended but you can still buy PALI
-              Coin on the following platforms
-            </h1>
-          </div>{" "}
           <div className="mt-4">
             {" "}
             <span className="text-gray-700 ">
@@ -725,14 +693,15 @@ const BuyPage = () => {
           </div>
         </div>
         <div className="text-gray-800 px-2 py-10 text-center">
+          <p className="font-semibold">💚 Donation 💚</p>
           <p>
             Thank you for considering crypto donations to help support the
             continuation of our project 🍉
           </p>
-          <p>💚 We truly appreciate your contribution 💚</p>
+          <p>- We truly appreciate your contribution -</p>
           Please feel free to send donations to the following crypto{" "}
-          <span className="text-orange-400 font-bold">BTC</span> address:
-          <p className="text-orange-400 font-bold">
+          <span className="text-orange-400 font-semibold">BTC</span> address:
+          <p className="text-orange-400 font-semibold">
             bc1qycju7kvkzlf88jcfalelz00ya70arvgml8dsjs
           </p>{" "}
         </div>
