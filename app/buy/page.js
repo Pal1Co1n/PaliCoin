@@ -698,7 +698,10 @@ const BuyPage = () => {
             Thank you for considering crypto donations to help support the
             continuation of our project 🍉
           </p>
-          <p>- We truly appreciate your contribution -</p>
+          <p>
+            - We truly appreciate your contribution — 100% of it will go
+            directly to Gaza -
+          </p>
           Please feel free to send donations to the following crypto{" "}
           <span className="text-orange-400 font-semibold">BTC</span> address:
           <p className="text-orange-400 font-semibold">
